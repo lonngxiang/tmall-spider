@@ -76,8 +76,8 @@ for j in range(len(word_lists)):
                     headers2 = {'Content-Type': 'application/json'}
                     # headers2 = {"Content-Type": "application/x-www-form-urlencoded"}
                     # data=json.dumps(lists_all)
-                    # response=requests.post(url="http://service.lavect1/es/bulk",headers=headers2,json=json.dumps(lists_all,ensure_ascii=False))
-                    response = requests.post(url="http://service.lav/v1/es/bulk/tmall", headers=headers2,
+                    # response=requests.post(url="http://servicees/bulk",headers=headers2,json=json.dumps(lists_all,ensure_ascii=False))
+                    response = requests.post(url="http://servlk/tmall", headers=headers2,
                                              json=cotents_all)
                     print(response.status_code)
                     print("++++++++++++++++")
