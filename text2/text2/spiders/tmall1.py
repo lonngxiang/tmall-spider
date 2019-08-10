@@ -99,8 +99,8 @@ class TmallSpider(scrapy.Spider):
                 headers2 = {'Content-Type': 'application/json'}
                 # headers2 = {"Content-Type": "application/x-www-form-urlencoded"}
                 # data=json.dumps(lists_all)
-                # response=requests.post(url="http://service.lavector.com/api/v1/es/bulk",headers=headers2,json=json.dumps(lists_all,ensure_ascii=False))
-                response = requests.post(url="https://service.lavector.com/api/v1/es/bulk/tmall", headers=headers2,
+                # response=requests.post(url="http://serviccom/api/v1/es/bulk",headers=headers2,json=json.dumps(lists_all,ensure_ascii=False))
+                response = requests.post(url="https://servic.com/api/v1/es/bulk/tmall", headers=headers2,
                                          json=cotents_all)
                 print(response.status_code)
                 print("++++++++++++++++")
